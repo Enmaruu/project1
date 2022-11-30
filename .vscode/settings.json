@@ -1,0 +1,10 @@
+{
+    "code-runner.executorMap": {
+      "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -lfreeglut -lglew32 -lopengl32 -lglfw3 -lglu32 -Lfolder && ./$fileNameWithoutExt"
+    },
+    "files.associations": {
+      "iostream": "cpp",
+      "iosfwd": "cpp",
+      "exc1.H": "cpp"
+    }
+  }
